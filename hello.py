@@ -118,13 +118,13 @@ if prompt != "":
             
             
 
-text = st.text_input("че хочешь нарисовать")
-num_images = st.slider("сколько картинок надо??", 1, 4)
+#text = st.text_input("че хочешь нарисовать")
+#num_images = st.slider("сколько картинок надо??", 1, 4)
 
-ok = st.button("нарисовать!!!")
+#ok = st.button("нарисовать!!!")
 
-if ok:
-	create_and_show_images(text, num_images)
+#if ok:
+#	create_and_show_images(text, num_images)
 
 
 
