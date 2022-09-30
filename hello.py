@@ -13,4 +13,4 @@ agree = st.checkbox('Показать шрека?')
 if agree:
     st.image(image, caption = 'SHREEEEEEEEK')
 else:
-    st.write('НИКАКОВА ВАМ ШРЕКА')
+    st.write('Нажми на квадратик')
