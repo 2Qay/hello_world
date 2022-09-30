@@ -9,7 +9,7 @@ st.write("ШРЕК")
 #else:
 #    st.write('Goodbye')
 
-agree = st.checkbox('I agree')
+agree = st.checkbox('Показать шрека?')
 if agree:
     st.image(image, caption = 'SHREEEEEEEEK')
 else:
